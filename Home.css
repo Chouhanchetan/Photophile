@@ -2,6 +2,8 @@
 @font-face{
     font-family: Aspect-range-demo;
     src: url(ASPECT-RANGE-DEMO-BF649422af9495a.ttf);
+    font-family: Andora-Modern-Serif;
+    src: url(Andora-Modern-Serif.otf);
 }
 body{
     margin: 0;
@@ -127,4 +129,30 @@ h1{
     justify-content: center;
     font-family:Aspect-range-demo;
     font-weight: 100;
+}
+.parallax-1{
+    background: url('005.jpg') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+}
+.parallax-inner{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+h3{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    font-family: Andora-Modern-Serif;
+    text-align: center;
+    font-size: xxx-large;
+}
+.container3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
