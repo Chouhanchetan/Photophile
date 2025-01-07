@@ -4,6 +4,8 @@
     src: url(ASPECT-RANGE-DEMO-BF649422af9495a.ttf);
     font-family: Andora-Modern-Serif;
     src: url(Andora-Modern-Serif.otf);
+    font-family: Bell MT Regular;
+    src: url(Bell\ MT\ Regular.otf);
 }
 body{
     margin: 0;
@@ -129,6 +131,27 @@ h1{
     justify-content: center;
     font-family:Aspect-range-demo;
     font-weight: 100;
+}
+.storytelling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    flex-wrap: wrap;
+    height: auto;
+}
+.storytelling img{
+    width: 200px;
+    height: 225px;
+}
+.storytelling h2{
+    font-family: Andora-Modern-Serif;
+    font-weight: 100;
+}
+.storytelling p{
+    font-family: Bell MT Regular;
+    font-size:large;
+    width: 300px;
 }
 .parallax-1{
     background: url('005.jpg') repeat fixed 100%;
