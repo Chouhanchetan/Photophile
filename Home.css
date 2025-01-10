@@ -6,6 +6,8 @@
     src: url(Andora-Modern-Serif.otf);
     font-family: Bell MT Regular;
     src: url(Bell\ MT\ Regular.otf);
+    font-family: Atteron personal use;
+    src: url(Atteron\ Personal\ Use\ Only.ttf);
 }
 body{
     margin: 0;
@@ -123,7 +125,7 @@ p{
         gap: 3rem;
 }
 .ankit3{
-    font-family: "Playfair Display", serif;
+    font-family: Atteron personal use;
     font-size: x-large;
 }
 h1{
@@ -207,9 +209,49 @@ footer img{
     display: flex;
     gap: 2rem;
 }
+.icon{
+    transition: all 0.3s linear;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
 footer p{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #564332;
+}
+.container4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.container4 img{
+    height: 450px;
+    width: 300px;
+}
+.container4 h1{
+    font-family: Atteron personal use;
+    font-weight: 100;
+}
+form{
+  position: relative;
+  display: grid;
+  width: 525px;
+  height: 570px;
+}
+.container4 p{
+    font-family: Bell MT Regular;
+}
+button{
+    font-family: Bell MT Regular;
+    background: white;
+    height: 35px;
+    width: 115px;
+}
+.button{
+    display: flex;
+    justify-content: center;
 }
