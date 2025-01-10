@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:wght@100;400&display=swap');
+        @font-face{
+            font-family: Atteron personal use;
+            src: url(Atteron\ Personal\ Use\ Only.ttf);
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    padding-left: 38px;
+}
+.link{
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    gap: 9rem;
+    padding-right: 45px;
+    font-size: large;     
+    font-family: calibri;
+    font-weight: 200;
+}
+
+ 
+.links>a{
+    text-decoration: none;
+    color: #2D4A3A;
+}     
+.links>a:hover{
+    color: rgb(223, 168, 52);
+}
+.links{
+    color: #2D4A3A;
+}
+.links:hover{
+    color: rgb(223, 168, 52);
+}
+img{
+    height: 100px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+        .slider{
+            height: 450px;
+            width: 300px;
+            animation: slide 10s infinite;
+            background-image: url(001GIT.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        @keyframes slide{
+            20%{
+                background: url(001GIT.jpg);
+            }
+            40%{
+                background: url(002GIT.jpg);
+            }
+            60%{
+                background: url(003GIT.jpg);
+            }
+            80%{
+                background: url(004GIT.jpg);
+            }
+            100%{
+                background: url(005GIT.jpg);
+            }            
+        }       
+
+        .container4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.container4 img{
+    height: 500px;
+    width: 300px;
+}
+.container4 h1{
+    font-family: Atteron personal use;
+    font-weight: 100;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+form{
+  position: relative;
+  display: grid;
+  width: 525px;
+  height: 570px;
+}
+.container4 p{
+    font-family: Bell MT Regular;
+}
+button{
+    font-family: Bell MT Regular;
+    background: white;
+    height: 35px;
+    width: 115px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+        
+    </style>
+</head>
+<body>
+    <!-- navigation bar -->
+    <div class="container">
+        <img src="Photophile Logo Brown.png" alt="">
+        </div>
+        <nav>
+            <ul class="link">
+                <li class="links"><a href="Home.html">Home</a></li>
+                <li class="links"><a href=#>Stories</a></li>
+                <li class="links"><a href=#>Films</a></li>
+                <li class="links"><a href=#>About</a></li>
+                <li class="links"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>    <br><br>   <br><br><br>
+        
+        <!-- contact -->
+   <div class="container4">
+    <div class="slider">
+    </div>
+     <div class="form">
+       <h1>GET IN TOUCH </h1>
+       <form action="">
+       <div class="name">
+        <input type="text" required>
+        <label for="">First Name*</label>
+        <input type="text" required>
+        <label for="">Last Name*</label>
+       </div>
+       <div class="phone">
+         <input type="number" required>
+         <label for="">Code*</label>
+         <input type="number" required>
+         <label for="">Phone*</label>
+       </div>
+       <input type="email" required>
+       <label for="">Email</label>             
+       <div class="event">
+         <input type="text" required>
+         <label for="">About the Events*</label>
+         <input type="text" required>
+         <label for="">Location*</label>
+       </div>
+       <input type="text" required>
+       <label for="">Details of all the events, timing, No.of guest*</label>
+       <div class="know">
+         <input type="text" >
+         <label for="">Link to moodboard or reference (if any)</label>
+         <input type="text" required>
+         <label for="">How did you hear about us*</label>
+       </div>
+      <div class="button">
+       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending"><b>Submit</b></button>
+       </div>
+     </form>
+     </div>
+   </div>
+</body>
+</html>
