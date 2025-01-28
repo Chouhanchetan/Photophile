@@ -188,10 +188,31 @@ h1{
     gap: 1rem;
 }
 .parallax-2{
-    background: url('004.jpg') repeat fixed 100%;
+    background: url('_49A2275.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
 }
+
+.hello1{
+    display: flex;
+        gap: 4rem;
+        justify-content: center;  
+}
+.hello1 .list img{
+    height: 450px;
+    width: 300px;
+}
+.post h1{
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-start;
+}
+.post span{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+}
+
 footer{
     width: 100%;
     height: 300px;
@@ -282,4 +303,3 @@ form {
     resize: none;
     height: 80px;
   }
-
