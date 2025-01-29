@@ -4,11 +4,18 @@
     src: url(Atteron\ Personal\ Use\ Only.ttf);
     font-family: Bell MT Regular;
     src: url(Bell\ MT\ Regular.otf);
+    font-family: Candara;
+    src: url(Candara_Bold.ttf);
+    font-family: Candara Regular;
+    src: url(Candara.ttf);
+    font-family: Calibri;
+    src: url(calibril.ttf);
 }
 body{
     margin: 0;
     padding: 0;
 }
+/* navbar */
 nav{
 justify-content: center;
 align-items: center;
@@ -31,29 +38,85 @@ font-weight: 200;
 
 .links>a{
 text-decoration: none;
-color: #2D4A3A;
+color: white;
 }     
 .links>a:hover{
 color: rgb(223, 168, 52);
 }
 .links{
-color: #2D4A3A;
+color: white;
 }
 .links:hover{
 color: rgb(223, 168, 52);
 }
 img{
 height: 100px;
+color: white;
 }
 .container{
 width: 100%;
 display: flex;
 justify-content: center;
+
 }
+.hero{
+    height: 685px;
+    width: 100%;
+background-image: url(JCPW2.jpg);
+background-size: cover;
+/* /* background-position: center; */
+/* background-attachment: fixed;  */
+}
+
+/* content */
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.text b{
+    font-family: Candara;
+    font-size: 50px;
+}
+.text p{
+    font-family: Candara Regular;
+    font-size: larger;
+}
+.contact{
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.text1 .contact{
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+span{
+    font-family: Candara Regular;
+    font-size: 30px;
+    color: #564332;
+}
+.text1 p{
+    font-family: Calibri;
+    width: 60%;
+    color: #564332;
+}
+/* fade image */
 .slider{
     height: 450px;
     width: 300px;
-    animation: slide 10s infinite;
+    animation: slide 15s infinite;
     background-image: url(001GIT.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -75,8 +138,8 @@ justify-content: center;
     100%{
         background: url(005GIT.jpg);
     }            
-}       
-
+}     
+  /*contact form  */
 .container4{
 width: 100%;
 display: flex;
@@ -145,6 +208,10 @@ resize: none;
 height: 80px;
 }
 
+/* map */
+
+
+/* footer */
 footer{
 width: 100%;
 height: 300px;
