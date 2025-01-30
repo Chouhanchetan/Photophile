@@ -109,7 +109,7 @@ span{
 }
 .text1 p{
     font-family: Calibri;
-    width: 60%;
+    width: 45%;
     color: #564332;
 }
 /* fade image */
@@ -209,7 +209,47 @@ height: 80px;
 }
 
 /* map */
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.map p{
+    font-family: Candara Regular;
+    color: #564332;
+    font-size: larger;
+}
+.no{
+    font-family: Candara Regular;
+    color: #564332;
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    padding-left: 107px;
+}
 
+/* question */
+.question{
+    font-family: Bell MT Regular;
+    font-size: xx-large;
+    color: #564332;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 600;
+    align-items: center;
+}
+.QA{
+    font-family:Candara Regular;
+    color: #564332;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.QA1{
+    width: 2597px;
+}
 
 /* footer */
 footer{
