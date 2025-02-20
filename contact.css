@@ -62,7 +62,7 @@ justify-content: center;
 .hero{
     height: 685px;
     width: 100%;
-background-image: url(JCPW2.jpg);
+background-image: url(contact/JCPW2.jpg);
 background-size: cover;
 /* /* background-position: center; */
 /* background-attachment: fixed;  */
@@ -117,26 +117,26 @@ span{
     height: 450px;
     width: 300px;
     animation: slide 15s infinite;
-    background-image: url(001GIT.jpg);
+    background-image: url(contact/001GIT.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 8px;
 }
 @keyframes slide{
     20%{
-        background: url(001GIT.jpg);
+        background: url(contact/001GIT.jpg);
     }
     40%{
-        background: url(002GIT.jpg);
+        background: url(contact/002GIT.jpg);
     }
     60%{
-        background: url(003GIT.jpg);
+        background: url(contact/003GIT.jpg);
     }
     80%{
-        background: url(004GIT.jpg);
+        background: url(contact/004GIT.jpg);
     }
     100%{
-        background: url(005GIT.jpg);
+        background: url(contact/005GIT.jpg);
     }            
 }     
   /*contact form  */
