@@ -55,7 +55,7 @@ justify-content: center;
 .hero{
     height: 100vh;
     width: 100%;
-background-image: url(SRD_8092\ copy.jpg);
+background-image: url(ankit/SRD_8092\ copy.jpg);
 background-size: cover;
 background-position: center;
 /* background-attachment: fixed; */
@@ -66,7 +66,7 @@ section {
   width: 100%;
    display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 .container {
     height: 860px;
@@ -80,11 +80,11 @@ section {
 .left {
   width: 600px;
   height: 800px;
-  background: url(ankit_h.jpg)
+  background: url(ankit/ankit_h.jpg)
     no-repeat center / cover;
 }
 .right {
-    background: url(ankit_w.jpg) no-repeat center/ cover;
+    background: url(ankit/ankit_w.jpg) no-repeat center/ cover;
     width: 600px;
     min-height: 350px;
   background-color: #303137;
@@ -124,7 +124,22 @@ section {
   }
 }
 
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+}
+.text{
+  width: 828px;
+  font-family: candara Regular; 
+  font-size: 30px;
 
+}
+.image{
+  width: 500px;
+  height: 700px;
+}
 
 
 
