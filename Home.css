@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:wght@100;400&display=swap');
 @font-face{
     font-family: Aspect-range-demo;
-    src: url(ASPECT-RANGE-DEMO-BF649422af9495a.ttf);
+    src: url(style/ASPECT-RANGE-DEMO-BF649422af9495a.ttf);
     font-family: Andora-Modern-Serif;
-    src: url(Andora-Modern-Serif.otf);
+    src: url(style/Andora-Modern-Serif.otf);
     font-family: Bell MT Regular;
-    src: url(Bell\ MT\ Regular.otf);
+    src: url(style/Bell\ MT\ Regular.otf);
     font-family: Atteron personal use;
-    src: url(Atteron\ Personal\ Use\ Only.ttf);
+    src: url(style/Atteron\ Personal\ Use\ Only.ttf);
 }
 body{
     margin: 0;
@@ -167,7 +167,7 @@ h1{
 
 /* flims */
 .parallax-1{
-    background: url('005.jpg') repeat fixed 100%;
+    background: url('slider_images/005.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
 }
@@ -192,16 +192,48 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.youtube{
+.marquee-container {
+    position: relative;
+   width: 100%;
+  height: 300px;
+    overflow: hidden;
+  }
+
+  .marquee-track {
     display: flex;
+    position: absolute;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
+    gap: 3rem;
+    height: 300px;
+    animation: marquee 30s linear infinite;
+  }
+  .marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+  }
+
+  .marquee-item {
+    flex-shrink: 0;
+    width: 450px;
+    height: 300px;
+    margin-right: 20px;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+ .marquee-item img{
+    height: 300px;
+    width: 500px;
+  }
 
 /* stories */
 .parallax-2{
-    background: url('_49A2275.jpg') repeat fixed 100%;
+    background: url('stories/_49A2275.jpg') repeat fixed 100%;
     background-size: cover;
     color: aliceblue;
 }
@@ -272,40 +304,46 @@ footer p{
 .container4 h1{
     font-family: Atteron personal use;
     font-weight: 100;
-}
-form{
-  position: relative;
-  display: grid;
-  width: 525px;
-  height: 570px;
-  flex-direction: column;
-}
-.container4 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    form{
+    position: relative;
+    display: grid;
+    width: 400px;
+    height: 570px;
+    flex-direction: column;
+    }
+    .container4 p{
     font-family: Bell MT Regular;
-}
-button{
+    }
+    button{
     font-family: Bell MT Regular;
     background: white;
     height: 35px;
     width: 115px;
-}
-.button{
+    }
+    .button{
     display: flex;
     justify-content: center;
-}
-
-form {
+    }
+    
+    form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
-
-  .form-row {
+    }
+    
+    .form-row {
     display: flex;
     gap: 15px;
-  }
-
-  input, textarea {
+    }
+    label{
+    font-family: Bell MT Regular;
+    width: 500px;
+    }
+    input, textarea {
     width: 100%;
     padding: 5px 0;
     border: none;
@@ -313,9 +351,14 @@ form {
     font-size: 14px;
     background: none;
     outline: none;
-  }
-
-  textarea {
+    }
+    
+    textarea {
     resize: none;
     height: 80px;
-  }
+    }
+    select{
+        border: none;
+        border-bottom: 1px solid black;
+    }
+   
