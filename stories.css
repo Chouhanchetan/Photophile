@@ -1,0 +1,158 @@
+/* navbar */
+nav{
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    padding-left: 38px;
+    }
+    .link{
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    gap: 9rem;
+    padding-right: 45px;
+    font-size: large;     
+    font-family: calibri;
+    font-weight: 200;
+    }
+    
+    .links>a{
+    text-decoration: none;
+    color: black;
+    }     
+    .links>a:hover{
+    color: rgb(223, 168, 52);
+    }
+    .links{
+    color: black;
+    }
+    .links:hover{
+    color: rgb(223, 168, 52);
+    }
+    img{
+    height: 100px;
+    color: white;
+    }
+    .container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    }
+    .hero{
+        height: 100vh;
+        width: 100%;
+    background-image: url(slider_images/008.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+    /* content */ 
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: calibri;
+    font-weight: 200;
+    font-style: normal;
+      display: flex;
+      text-align: center;
+      width: 70%;
+      font-size: larger;
+}
+
+/* main section */
+
+.hello1{
+    display: flex;
+        gap: 4rem;
+        justify-content: center;  
+}
+.hello1 .list img{
+    height: 450px;
+    width: 300px;
+}
+.post h1{
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-start;
+}
+.post span{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* EQ */
+.container2{
+    height: 500px;
+    width: 100%;
+background-image: url(slider_images/001.jpg);
+background-size: cover;
+background-position: center;
+}
+.EQ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+}
+.EQ i{
+    font-family: calibri;
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    height: 40px;
+    width: 125px;
+    border-radius: 1vh;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #E7E3D8;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+footer img{
+    height: 30px;
+}
+.footer_icon{
+    display: flex;
+    gap: 2rem;
+}
+.icon{
+    transition: all 0.3s linear;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #564332;
+}
