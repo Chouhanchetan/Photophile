@@ -8,6 +8,8 @@
     src: url(style/Bell\ MT\ Regular.otf);
     font-family: Atteron personal use;
     src: url(style/Atteron\ Personal\ Use\ Only.ttf);
+    font-family: Hastegi;
+    src: url(style/Hastegi-yYBYe.otf);
 }
 body{
     margin: 0;
@@ -192,7 +194,6 @@ h1{
 /* flims */
 .parallax-1{
     position: relative;
-  height: 100vh;
   overflow: hidden;
 }
 
@@ -246,7 +247,7 @@ h1{
 .marquee{    
     display: flex;
     width: max-content;
-    animation: scroll-marquee 20s linear infinite;
+    animation: scroll-marquee 30s linear infinite;
   }
 .marquee:hover {
     animation-play-state: paused;
@@ -355,8 +356,24 @@ h1{
 .container6 {
     display: flex;
     width: 100%;
-    height: 675px;
+    height: 650px;
     position: relative;
+    gap: 5rem;
+
+}
+.butt button{
+    width: 190px;
+    height: 50px;
+    background-color: #E7E3D8;
+}
+.butt{
+    color: #E7E3D8;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-end; */
+    align-items: center;
+
 }
 .back1{
     width: 100%;   
@@ -377,7 +394,6 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
 }
 .front1 h1{
     /* height: 20PX;   */
@@ -393,12 +409,21 @@ h1{
     height: 500px;
     display: flex;
     position: relative;
+
   }
   
   .container7 img {
     width: 50%;
     height: 500px;
     object-fit: cover;
+  }
+  #sliderHeading{
+    font-family:Hastegi ;
+  }
+  #sliderText{
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
   
   .contant {    
