@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:wght@100;400&display=swap');
+@font-face{
+    font-family: Atteron personal use;
+    src: url(Atteron\ Personal\ Use\ Only.ttf);
+    font-family: Andora-Modern-Serif;
+    src: url(style/Andora-Modern-Serif.otf);
+}
 /* navbar */
 nav{
     justify-content: center;
@@ -79,9 +86,13 @@ p{
     width: 300px;
 }
 .post h1{
-    font-size: xx-large;
+    font-family: Andora-Modern-Serif;
+    font-size: x-large;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    font-weight: 100;
+    color: rgb(85, 83, 83);
+
 }
 .post span{
     display: flex;
@@ -96,13 +107,13 @@ a:hover{
 .container2{
     height: 500px;
     width: 100%;
-background-image: url(_49A3611\ copy.jpg);
+background-image: url(IMG_1084\ copy.jpg);
 background-size: cover;
 background-position: center;
 }
 .EQ{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 500px;
@@ -112,12 +123,15 @@ background-position: center;
 .EQ i{
     font-family: calibri;
     text-align: center;
+    color: white;
 }
 button{
     background-color: transparent;
     height: 40px;
     width: 125px;
     border-radius: 1vh;
+    color: white;
+    border: white 1px solid;
 }
 a{
     color: black;
@@ -153,4 +167,4 @@ footer p{
     justify-content: center;
     align-items: center;
     color: #564332;
-}
+}   
