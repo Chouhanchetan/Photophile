@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:wght@100;400&display=swap');
+@font-face{
+    font-family: Candara Regular;
+    src: url(/Candara.ttf);
+    font-family: Andora-Modern-Serif;
+    src: url(/style/Andora-Modern-Serif.otf);
+    font-family: Andora;
+    src: url(/style/Andora.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 236, 228);
+
+}
+/* Navbar */
+nav{
+justify-content: center;
+align-items: center;
+height: 40px;
+display: flex;
+padding-left: 38px;
+}
+.link{
+align-items: center;
+list-style: none;
+justify-content: space-between;
+display: flex;
+gap: 9rem;
+padding-right: 45px;
+font-size: large;     
+font-family: calibri;
+font-weight: 200;
+}
+
+
+.links>a{
+text-decoration: none;
+color: black;
+}     
+.links>a:hover{
+color: rgb(223, 168, 52);
+}
+.links{
+color: black;
+}
+.links:hover{
+color: rgb(223, 168, 52);
+}
+img{
+height: 100px;
+color: white;
+}
+.container1{
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+background-image: url(/ankit/IMG_0775.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+}
+
+.name{
+  position: absolute;
+  left: 19%;
+  bottom: 95px;
+  color: white;
+  font-family: Andora;
+  font-size: 65px;
+}
+.counter {
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 8%;
+  bottom: 12px;
+  font-family: calibri;
+  font-weight: 600;
+  font-size: x-large;
+    
+}
+.counter1 {
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 27%;
+  bottom: 12px;
+  font-family: calibri;
+  font-weight: 600;
+  font-size: x-large;
+}
+.counter2 {
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 38%;
+  bottom: 12px;
+  font-family: calibri;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.count {
+  font-weight: 400;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+.container3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.container3 img{
+  height: 500px;
+}
+.style{
+  width: 500px;
+}
+.style p{
+  font-family: candara Regular;
+  bottom: 30px;
+  font-size: larger;
+  width: 566px;
+}
+.style h1{
+  font-family: candara Regular;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.container2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+.image{
+  height: 500px;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #E7E3D8;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    }
+    footer img{
+    height: 30px;
+    }
+    .footer_icon{
+    display: flex;
+    gap: 2rem;
+    }
+    .icon{
+    transition: all 0.3s linear;
+    }
+    .icon:hover{
+    transform: scale(1.5);
+    }
+    footer p{
+      font-family: calibri ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #564332;
+      text-align: center;
+      font-size: large;
+      font-weight: 500;
+    }
+    @media (max-width: 1024px) {
+      .counter{
+        left: 4%;
+      }
+      .container3{
+        gap: 2rem;
+      }
+    }
+/* Responsive styles */
+@media (max-width: 768px) {
+  @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:wght@100;400&display=swap');
+  @font-face{
+    font-family: Candara Regular;
+    src: url(/Candara.ttf);
+    font-family: Andora-Modern-Serif;
+    src: url(/style/Andora-Modern-Serif.otf);
+    font-family: Andora;
+    src: url(/style/Andora.otf);
+}
+
+.container{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+}
+  .heading{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading .h1{
+  margin: 0%;
+  font-size: xx-large;
+  font-family: Andora-Modern-Serif;
+}
+.heading p{
+  font-family: calibri;
+  font-size: larger;
+}
+.menu-toggle{
+  display: block;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #564332;
+}
+}
+/* Hide toggle by default */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: #564332;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Default nav styling */
+.nav-links {
+  display: block;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+    
+      .menu-toggle {
+        display: block;
+      }
+    
+      .nav-links {
+        display: none;
+        width: 100%;
+      }
+    
+      .nav-links.active {
+        display: block;
+      }
+    
+      .link {
+        flex-direction: column;
+            align-items: flex-end;
+            gap: 1rem;
+            padding-top: 4rem;
+            padding-right: 1rem;
+      }
+.hero {
+  background-image: url('/ankit/IMG_0775.jpg');
+  background-size: cover;             
+  background-position: center;        
+  background-repeat: no-repeat;
+  background-attachment: scroll;       
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+
+}
+  .container1{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+  }
+     
+      .menu-toggle {
+        display: block;
+      }
+    
+
+.name{
+  font-size: 40px;
+}
+.counter {
+    left: 4%;
+  font-size: small;
+  top: 50%;    
+}
+.counter1 {
+  left: 43%;
+  top: 50%;
+  font-size: small;
+}
+.counter2 {
+  left: 60%;
+  top: 50%;
+  font-size: small;
+}
+
+.count {
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+}
+.container3 {
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+    flex-direction: column-reverse;
+
+}
+
+.container3 img {
+  width: 90%;
+  height: auto;
+  max-width: 500px;
+  object-fit: cover;
+}
+.container2{
+  display: none;
+}
+
+
+.style {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.style h1 {
+  justify-content: center;
+  font-size: 24px;
+}
+
+.style p {
+  font-size: 16px;
+  width: 100%;
+}
+/* Footer */
+footer{
+    height: 300px;
+    }
+    footer p{
+      font-family: calibri ;
+      flex-direction: column;
+            font-size: small;
+    }
+  }
