@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photophile / Home</title>
+    <link rel="icon" href="logo/PP (1).png" sizes="32x32">
+    <link rel="stylesheet" type="text/css" href="text/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="text/all.min.css">
+    <link rel="stylesheet" href="css-style/index.css">
+</head>
+<body>
+    <div id="top" class="container">
+   <a href="index.html"><img src="logo/Photophile Logo Brown.png" alt=""></a>
+    </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav>
+          <div class="nav-links" id="navLinks">
+        <ul class="link">
+            <li class="links"><a href="index.html">Home</a></li>
+            <li class="links"><a href="stories.html">Stories</a></li>
+            <li class="links"><a href="films.html">Films</a></li>
+            <li class="links"><a href="aboutus.html">About</a></li>
+            <li class="links"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+    </nav>    <br><br>    
+            <script>
+          function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            const menuToggle = document.getElementById('menuToggle');
+        
+            navLinks.classList.toggle('active');
+        
+            // Switch between ☰ and ✖
+            if (navLinks.classList.contains('active')) {
+              menuToggle.textContent = '✖';
+            } else {
+              menuToggle.textContent = '☰';
+            }
+          }
+        </script>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="slider_images/004.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/002 (1).jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/003.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/001.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/005.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/549A1113 copy.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/007.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="slider_images/008.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 7000,
+            disableOnInteraction: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+      <br>
+      <br>
+
+      <!-- contant -->
+      <div class="container1">
+      <p>We are a team of creatives, a team that loves framing the memories while it is being lived. All that we seek is to capture a story, your unique story. Our aim is to have you forget you're getting your moments covered while you are busy living them. We believe in preserving memories more than just covering them as the moments lived once becomes memories for years to come. Together, let's make all those important and memorable moments live forever and have fun while doing it. We specialise in Photography and Cinematography of Wedding, Commercial, Maternity and Baby shoot, Corporate Events Etc.</p>
+      </div>
+      <br><br>
+      
+      <!-- about ankit -->
+       <div class="container2">
+          <img class="Ankit" src="ankit/_NKP1425 copy.jpg" alt="">       
+        <div class="ankit2"><i>A Man with Many Passions, Passion for Travelling, Music & Photography. Exploring & learning new things. A person Who Never get tired of Clicking Picture. Photography, Started as Passion, now it becomes my Profession. Developed & discovered his art & creative site in Photography. I Like to Connect with the People’s Emotions & Stories These are the moments I feel must be preserved. That’s Why I Choosed Wedding, Engagement & Maternity & Baby  Photography. I took little steps which brought Photophile Photography into existence. I did start it alone but now what I have is a beautiful team who strives to offer our clients the best of their memories.</i>
+        <div class="ankit3">
+          ( Ankit Mer - Founder )
+        </div>
+      </div>
+       </div>
+       <br><br>
+
+       <!-- what we do -->
+       <H1>What we do ? ?</H1>
+       <br><br>
+       <div class="container3">
+       <div class="storytelling">
+        <img src="what_we_do/Webiste PNG 1.png" alt="">
+        <h2>STORYTELLING</h2>
+        <p>Every story is unique, and we believe in capturing your emotions, Through storytelling in our work, we love to document the heartfelt moments, in your Every function like Engagement, Wedding & Pre-wedding, Maternity, Toddler & Family Session. Our  visual narrative that reflects your journey, preserving memories you'll cherish for a lifetime. </p>
+       </div>
+       <div class="storytelling1">
+        <img src="what_we_do/Website PNG 3.PNG" alt="">
+        <h2>COMMERCIAL</h2>
+        <p>we mean creating imagery that showcases your business at its finest. From highlighting your products to capturing the essence of your services, we focus on delivering visuals that resonate with your audience. We take the time to understand your vision, ensuring every detail aligns with your brand's story. Our goal is to bring your ideas to life with creativity and precision, leaving a lasting impression on your clients.</p>
+       </div>
+       <div class="storytelling">
+        <img src="what_we_do/Webiste PNG 6.png" alt="">
+        <h2>CORPORATE & EVENTS</h2>
+        <p>capturing a wide range of special occasions with precision and creativity. From corporate events, meetings, and inaugurations. Events like Birthday parties, baby showers, and School or college events, we ensure every moment is beautifully documented. Whatever the occasion, we bring professionalism and a keen eye for detail to preserve memories that matter."</p>
+       </div>
+       </div>
+       <br><br>
+
+       <!-- films -->
+       <section class="1">
+        <section class="parallax-1">
+          <video autoplay muted loop disablePictureInPicture src="flims/for Website - SS.mp4" ></video>
+            <div class="parallax-inner">
+               <h1>FILMS</h1>
+            </div>
+        </section>
+        </section>
+        <br><br>
+        <div class="container3">    
+          <p>films are crafted to tell your love story with beauty and heartfelt emotion. From the laughter and tears to the quiet, tender moments, we weave together a narrative that feels as magical as your day. Each film is a unique blend of candid memories, joyful celebrations, and meaningful details, creating a timeless keepsake of your journey.</p>        </div><br><br>
+       <div class="marquee-container" id="marqueeContainer">
+  <div class="marquee" style="cursor: pointer;" id="marquee">
+      <img src="flims/01 - APYT.png" data-link="https://www.youtube.com/embed/BDONICrcWG0?si=V_YFgRuYC8IjvvUo">
+      <img src="flims/02 - DJYT.png" data-link="https://www.youtube.com/embed/UgLCnY6alIk?si=TPjpJyZxhdRh4ARZ">
+      <img src="flims/03 - CTYT.png" data-link="https://www.youtube.com/embed/R1-W5EUrEgE?si=Cddmv4NWgdVBh4gX">
+      <img src="flims/04 - VSYT.png" data-link="https://www.youtube.com/embed/lykmRoF0clA?si=-vRc_oY1QxWTrfbx">
+      <img src="flims/05 - BTYT.png" data-link="https://www.youtube.com/embed/caOwcKgGWbM?si=7zgcrYa1lrtY38iP">
+      <img src="flims/06 - RMYT.png" data-link="https://www.youtube.com/embed/_t0mP0BX7Sw?si=QrmFpcFK2P687fsa">
+      <img src="flims/07 - NPYT.png" data-link="https://www.youtube.com/embed/QUf8UFYkSt4?si=UnwuLLieuzJaGazq">
+      <img src="flims/08 - SSYT.png" data-link="https://www.youtube.com/embed/wP3h3PHlO_4?si=EUO3Wa8i1i8jl42_">
+      <img src="flims/09 - PNYT.png" data-link="https://www.youtube.com/embed/Amwfr5f5f9Y?si=79basn_AghEPJXG8">
+      <img src="flims/10 - MRYT.png" data-link="https://www.youtube.com/embed/VVOcazyNRKE?si=uz4IlLWOl_q59DhA">
+      <img src="flims/01 - APYT.png" data-link="https://www.youtube.com/embed/BDONICrcWG0?si=V_YFgRuYC8IjvvUo">
+      <img src="flims/02 - DJYT.png" data-link="https://www.youtube.com/embed/UgLCnY6alIk?si=TPjpJyZxhdRh4ARZ">
+      <img src="flims/03 - CTYT.png" data-link="https://www.youtube.com/embed/R1-W5EUrEgE?si=Cddmv4NWgdVBh4gX">
+      <img src="flims/04 - VSYT.png" data-link="https://www.youtube.com/embed/lykmRoF0clA?si=-vRc_oY1QxWTrfbx">
+      <img src="flims/05 - BTYT.png" data-link="https://www.youtube.com/embed/caOwcKgGWbM?si=7zgcrYa1lrtY38iP">
+      <img src="flims/06 - RMYT.png" data-link="https://www.youtube.com/embed/_t0mP0BX7Sw?si=QrmFpcFK2P687fsa">
+      <img src="flims/07 - NPYT.png" data-link="https://www.youtube.com/embed/QUf8UFYkSt4?si=UnwuLLieuzJaGazq">
+      <img src="flims/08 - SSYT.png" data-link="https://www.youtube.com/embed/wP3h3PHlO_4?si=EUO3Wa8i1i8jl42_">
+      <img src="flims/09 - PNYT.png" data-link="https://www.youtube.com/embed/Amwfr5f5f9Y?si=79basn_AghEPJXG8">
+      <img src="flims/10 - MRYT.png" data-link="https://www.youtube.com/embed/VVOcazyNRKE?si=uz4IlLWOl_q59DhA"> 
+  </div>
+</div>
+<div class="fullscreen-overlay" id="fullscreenOverlay">
+  <div class="iframe-wrapper">
+    <iframe id="fullscreenIframe" src="" frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+  </div>
+  <button style="cursor: pointer;" id="closeBtn">⬅ Back</button>
+</div>
+
+<script>
+  const marquee = document.getElementById('marquee');
+  const container = document.getElementById('marqueeContainer');
+  const overlay = document.getElementById('fullscreenOverlay');
+  const iframe = document.getElementById('fullscreenIframe');
+  const closeBtn = document.getElementById('closeBtn');
+
+  // Pause marquee on hover
+  container.addEventListener('mouseenter', () => marquee.classList.add('paused'));
+  container.addEventListener('mouseleave', () => marquee.classList.remove('paused'));
+
+  // Click on any image in the marquee
+  document.querySelectorAll('.marquee img').forEach(img => {
+    img.addEventListener('click', () => {
+      const link = img.getAttribute('data-link');
+      iframe.src = link + "?autoplay=1"; // Autoplay when opened
+      overlay.style.display = 'flex';
+    });
+  });
+
+  // Close fullscreen and stop video
+  function closeOverlay() {
+    iframe.src = ""; // Reset iframe
+    overlay.style.display = 'none';
+  }
+
+  closeBtn.addEventListener('click', closeOverlay);
+
+  // Close when clicking on the overlay but NOT the iframe
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) {
+      closeOverlay();
+    }
+  });
+</script>
+       <br><br>
+
+       <!-- Stories -->
+       <section class="1">
+        <section class="parallax-2">
+            <div class="parallax-inner2">
+                <br>
+                <h1>STORIES</h1>
+                <br>
+            </div>
+        </section>
+        </section><br><br>
+
+        <div class="container">
+          <p>Every story is unique, and we believe in capturing your emotions, Through storytelling in our work, we love to document the heartfelt moments, candid moments, in your Every function like Engagement, wedding & pre-wedding, Maternity, Toddler & Family Session. Our approach is to weave together a visual narrative that reflects your journey, preserving memories you'll cherish for a lifetime.</p>
+      </div><br><br><br>
+
+        <div class="container5">
+          <div class="back"></div>
+          <div class="front">
+            <h1>AKSHAY & POOJA</h1>
+            <p style="font-size: medium;">Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</p>
+            <a href="APW.html"><button style="width: 100%; height: 60px; background-color: #E7E3D8; font-size: large; border: 1px solid; cursor: pointer;">EXPLOR MORE</button></a>
+          </div>
+        </div>
+
+        <div class="container6">
+          <div class="back1"></div>
+          <div class="front1">
+            <h1>BHAVESH & TEJAL</h1>
+            <p style="font-size: medium;">College friends often start as study companions, but over time, they become soulmates. Through late-night talks, shared struggles, and endless laughter, their bond deepens. Even after seven years, despite life's ups and downs, their friendship remains strong—offering unwavering support, proving that some connections last forever.</p>
+            <a href="BTW.html"><button style="width: 100%; height:60px; background-color: #E7E3D8; font-size: large; border: 1px solid; cursor: pointer;">EXPLOR MORE</button></a>
+          </div>         
+        </div>
+         <div class="butt">
+            <a class="button" href="stories.html">For More Stories...</a>
+          </div>
+
+        <!-- testimonial -->
+        <h1 class="testimonial">TESTIMONIAL</h1>
+        <div class="container7">
+          <div class="contant">
+            <h1 id="sliderHeading"></h1>
+            <p id="sliderText"></p>
+            <!-- Navigation Controls -->
+            <div class="navigation">
+              <button class="nav-btn" id="prevBtn">←</button>
+              <span id="imageCounter">1 / 8</span>
+              <button class="nav-btn" id="nextBtn">→</button>
+            </div>
+          </div>
+        
+          <!-- Image Section -->
+           <video id="mainVideo" controls controlslist="nodownload noplaybackrate" disablePictureInPicture src=""></video>
+          <img id="mainImage"  src="testimonial/001.mp4" alt="">
+        </div><br><br>
+        
+        <script>
+          const sliderData = [
+            {
+              video: "001 - Trim.mp4",
+              heading: "Unmesh & Akansha",
+              text: "A big thank you to Ankit and his team you are amazing!! You are wonderful people and make the experience or coordinating and shooting a warm and natural feel. You really capture and edit the most precious moments in life and we are so grateful! Thank you so much!!",
+            },
+            {
+              img: "testimonial/Asds.jpg",
+              heading: "Hemang & Reema",
+              text: "Thank you for capturing the essence of our special day so perfectly. Your photographs have not only captured the moments but also the emotions associated with them. Each picture tells a beautiful story, allowing us to relive those cherished memories again and again. We truly appreciate your talent and effort in making our day even more special."
+            },
+            {
+              img: "testimonial/006.jpg",
+              heading: "Rahul & Muskan",
+              text: "You made the entire experience truly unforgettable for us! Every moment was filled with joy, and we couldn’t have asked for anything better. We absolutely loved all the pictures—they perfectly captured the magic and emotions of the day. Thank you for making it so special! ❤"
+            },
+            {
+              img: "testimonial/003.jpg",
+              heading: "Bhavesh & Tejal",
+              text: "I came across Ankit at one of my friends wedding , when people do research to select the best photographer for their big day, I was lucky enough to find her at my friend's wedding, and with no second thought, I booked Ankit for my wedding. we both are very s﻿hy person and hates to be captured team made sure to make us comfortable while shoot and capture the best of our wedding. Ankit and their team are super friendly and professional at the same time to work with, you just need to tell her what you looking for and you get more than what you have expected, he has an innate sense of capturing your wedding moments which you live through your life."
+            },
+            {
+              img: "testimonial/008.jpg",
+              heading: "Chirag & Tanushree",
+              text: "Ankit Bhai, we wanted to take a moment to express our gratitude for the role you played in making our wedding day truly unforgettable ! your dedication and creativity brought so much enjoy and magic in our celebration. thank you for capturing RAW moments and emotions."
+            },
+            {
+              img: "testimonial/002.jpg",
+              heading: "Riddhesh & Mansi  ",
+              text: "You made our wedding day even more special with your incredible photography! Every picture beautifully captured the emotions, love, and joy we felt. Your professionalism and creativity made the whole experience so enjoyable. We are beyond grateful for these timeless memories!"          },
+            {
+              img: "testimonial/007.jpg",
+              heading: "Akshay & Pooja",
+              text: "From the moment we chose him as our photographer for every event—from our pre-wedding shoot to the engagement, Haldi, and finally, the big day—we knew we had made the best decision.His talent behind the lens is truly remarkable, capturing each special moment with such authenticity and emotion. Every picture tells a story, and his wedding films are nothing short of breathtaking—stunning, nostalgic, and filled with heart.  "
+            },
+            {
+              img: "testimonial/004.jpg",
+              heading: "Nayan & Nikita",
+              text: "We can’t say how happy we are that we had you as our wedding photographer – you were just absolutely amazing and the photos and videos show that! All of our guests commented how good you were and how you just knew when and how to take the perfect picture! I will be recommending you to anyone that is looking for a wedding photographer!! Your sneak peek video , teaser, wedding film and photos are so nice Thank you so much!"
+            }
+          ];
+        
+          let currentIndex = 0;
+          const mainVideo = document.getElementById("mainVideo");
+          const mainImage = document.getElementById("mainImage");
+          const heading = document.getElementById("sliderHeading");
+          const text = document.getElementById("sliderText");
+          const counter = document.getElementById("imageCounter");
+
+          // Observe video visibility
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // If video is visible
+      if (mainVideo.style.display === "block") {
+        mainVideo.play();
+      }
+    } else {
+      // If video is not visible
+      mainVideo.pause();
+    }
+  });
+}, { threshold: 0.5 }); // 0.5 = half the video must be visible
+
+observer.observe(mainVideo);
+
+// Function to update the slider
+function updateSlider() {
+  const current = sliderData[currentIndex];
+  heading.textContent = current.heading;
+  text.innerHTML = `<i>${current.text}</i>`;
+  counter.textContent = `${currentIndex + 1} / ${sliderData.length}`;
+
+  if (current.video) {
+    mainVideo.src = current.video;
+    mainVideo.style.display = "block";
+    mainImage.style.display = "none";
+
+    mainVideo.load();
+    // DO NOT force play here, IntersectionObserver will handle it
+  } else if (current.img) {
+    mainVideo.pause();
+    mainVideo.currentTime = 0;
+    mainVideo.style.display = "none";
+
+    mainImage.src = current.img;
+    mainImage.style.display = "block";
+  }
+}
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+  currentIndex = (currentIndex - 1 + sliderData.length) % sliderData.length;
+  updateSlider();
+});
+
+document.getElementById("nextBtn").addEventListener("click", () => {
+  currentIndex = (currentIndex + 1) % sliderData.length;
+  updateSlider();
+});
+
+updateSlider(); // Initial load
+
+        </script>
+               
+        <!-- get in touch -->
+        <div class="container4">
+         <img src="contact/001GIT.jpg" alt="">
+          <div class="form-section">
+           <h1>GET IN TOUCH </h1><br><br>
+           <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="08d4b0a6-f46e-415b-bffc-c1bf8ca056eb">
+    <input type="hidden" name="redirect" value="https://photophilephotosandfilms.com/thankyou.html">
+
+  <div class="form-row">
+    <label for="">First Name*</label>
+    <label for="">Last Name*</label>
+  </div>
+  <div class="form-row">
+    <input type="text" name="first_name" required>
+    <input type="text" name="last_name" required>
+  </div>
+
+  <div class="form-row">
+    <label for="" style="width: 160px;">Code*</label>
+    <label for="">Phone*</label>
+  </div>
+  <div class="form-row">
+    <select name="country_code" style="width: 100px; background: transparent;" required>
+      <option value="IN +91">IN +91</option>
+      <option value="US +1">US +1</option>
+      <option value="AU +61">AU +61</option>
+      <option value="UK +44">UK +44</option>
+      <option value="CN +86">CN +86</option>
+      <option value="NP +977">NP +977</option>
+      <option value="LK +94">LK +94</option>
+      <option value="MV +960">MV +960</option>
+      <option value="CH +41">CH +41</option>
+    </select>
+    <input type="tel" name="phone" required>
+  </div>
+
+  <label for="">Email*</label>
+  <input class="email" type="email" name="email" required>
+
+  <div class="form-row">
+    <label for="">About the Events*</label>
+    <label for="">Location*</label>
+  </div>
+  <div class="form-row">
+    <input type="text" name="event_about" required>
+    <input type="text" name="location" required>
+  </div>
+
+  <label for="">Details of all the events, timing, No. of guests*</label>
+  <textarea name="event_details" required></textarea>
+
+  <div class="form-row">
+    <label for="">Link to moodboard or reference (if any)</label>
+    <label for="">How did you hear about us*</label>
+  </div>
+  <div class="form-row">
+    <input type="text" name="reference_link">
+    <input type="text" name="referral_source" required>
+  </div><br>
+
+  <div class="button">
+    <a href="thankyou.html"><button name="submit" style="cursor: pointer;"  type="submit" id="contact-submit" data-submit="...Sending"><b>Submit</b></button></a>
+  </div>
+</form>
+
+         </div>
+        </div>
+        <br><br>   
+
+        <a href="#top" class="scroll-arrow">↑</a>
+        <script>
+          window.addEventListener('scroll', function() {
+  const scrollArrow = document.querySelector('.scroll-arrow');
+  if (window.scrollY > 200) { // Show after 200px scroll
+    scrollArrow.classList.add('show');
+  } else {
+    scrollArrow.classList.remove('show');
+  }
+});
+        </script>
+
+        <!-- footer -->
+        <footer>
+          <div class="footer_icon">
+          <a href="https://www.facebook.com/photophile2.O" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/FB Logo.png"alt=""></a>
+          <a href="https://www.youtube.com/@photophile-byankitmer441" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/YT Logo.png" alt=""></a>
+          <a href="https://www.instagram.com/photophile2.0/" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
+          </div><br><br>
+          <p>ALL RIGHT RESERVED 2024 @ PHOTOPHILE PHOTOS & FILMS <br> <br>
+          Email us on : Photophilephotosandfilms@gmail.com <br>
+          Contact Number : +91 9967107339</P>
+        </footer>
+</body>
+</html>

@@ -3,29 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GET IN TOUCH</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="contact.css">
-    <link rel="icon" href="PP (1).png" sizes="32x32">
+    <title>Photophile / GET IN TOUCH</title>
+    <link rel="stylesheet" href="css-style/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo/PP (1).png" sizes="32x32">
 
 </head>
 <body>
     <!-- navigation bar -->
      <div class="hero">
     <div class="container">
-      <a href="Home.html"><img src="logo/Photophile Logo Brown.png" alt=""></a>
+      <a href="index.html"><img src="logo/Photophile Logo Brown.png" alt=""></a>
     </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
         <nav>
+            <div class="nav-links" id="navLinks">
             <ul class="link">
-                <li class="links"><a href="Home.html">Home</a></li>
+                <li class="links"><a href="index.html">Home</a></li>
                 <li class="links"><a href="stories.html">Stories</a></li>
                 <li class="links"><a href="films.html">Films</a></li>
                 <li class="links"><a href="aboutus.html">About</a></li>
                 <li class="links"><a href="contact.html">Contact Us</a></li>
             </ul>
+          </div>
         </nav><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br>
+        <br><br>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
 
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  });
+</script>
         <!-- contant -->
         <div class="text">
           <div class="contact">
@@ -34,7 +48,7 @@
         </div>
           <p>YOUR STORY BEGINS HERE</p>
         </div>
-     </div>     <br>
+     </div><br>
      <div class="text1">
       <div class="contact">
       <span>L E T ' S </span>
@@ -52,88 +66,84 @@
     </div>
          <div class="form-section">
            <br><br> <br><br>
-           <form action="">
-            <div class="form-row">
-              <label for="">First Name*</label>
-              <label for="">Last Name*</label>
-            </div>
-           <div class="form-row">
-            <input type="text" required>            
-            <input type="text" required>            
-           </div>
+           <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="08d4b0a6-f46e-415b-bffc-c1bf8ca056eb">
+    <input type="hidden" name="redirect" value="https://photophilephotosandfilms.com/thankyou.html">
 
-           <div class="form-row">
-            <label for="" style="width: 100px;">Code*</label>
-            <label for="" >Phone*</label>           
-          </div>
-           <div class="form-row">
-             <select name="" id="" style="width: 100px;">
-              <option value="">IN +91</option>
-              <option value="">AW +297</option>
-              <option value="">AQ +244</option>
-              <option value="">AF +93</option>
-              <option value="">AF +93</option>
-              <option value="">AI +1</option>
-              <option value="">AX +358</option>
-              <option value="">AL +355</option>
-              <option value="">AD +376</option>
-              <option value="">AE +917</option>
-              <option value="">AR +54</option>
-              <option value="">AM +374</option>
-              <option value="">AS +1684</option>
-              <option value="">AQ +672</option>
-              <option value="">TF +262</option>
-              <option value="">AG +1</option>
-              <option value="">AU +61</option>
-              <option value="">AT +43</option>
-             </select>
-             <input type="tel" required>            
-           </div> 
+  <div class="form-row">
+    <label for="">First Name*</label>
+    <label for="">Last Name*</label>
+  </div>
+  <div class="form-row">
+    <input type="text" name="first_name" required>
+    <input type="text" name="last_name" required>
+  </div>
 
-           <label for="">Email*</label> 
-           <input type="email" required>
+  <div class="form-row">
+    <label for="" style="width: 160px;">Code*</label>
+    <label for="">Phone*</label>
+  </div>
+  <div class="form-row">
+    <select name="country_code" style="width: 100px;" required>
+      <option value="IN +91">IN +91</option>
+      <option value="US +1">US +1</option>
+      <option value="AU +61">AU +61</option>
+      <option value="UK +44">UK +44</option>
+      <option value="CN +86">CN +86</option>
+      <option value="NP +977">NP +977</option>
+      <option value="LK +94">LK +94</option>
+      <option value="MV +960">MV +960</option>
+      <option value="CH +41">CH +41</option>
+    </select>
+    <input type="tel" name="phone" required>
+  </div>
 
-           <div class="form-row">
-            <label for="">About the Events*</label>
-            <label for="">Location*</label>
-          </div>
-           <div class="form-row">
-             <input type="text" required>
-             <input type="text" required>
-           </div>
+  <label style="width: 315px;" for="">Email*</label>
+  <input class="email" type="email" name="email" required>
 
-           <label for="">Details of all the events, timing, No.of guest*</label>
-           <textarea name="" id=""></textarea>
-           
-           <div class="form-row">
-            <label for="">Link to moodboard or reference (if any)</label>
-            <label for="">How did you hear about us*</label>
-          </div>
-           <div class="form-row">
-             <input type="text" >
-             <input type="text" required>
-           </div><br>
-          <div class="button">
-           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending"><b>Submit</b></button>
-           </div>
-         </form>
+  <div class="form-row">
+    <label for="">About the Events*</label>
+    <label for="">Location*</label>
+  </div>
+  <div class="form-row">
+    <input type="text" name="event_about" required>
+    <input type="text" name="location" required>
+  </div>
+
+  <label style="width: 315px;" for="">Details of all the events, timing, No. of guests*</label>
+  <textarea name="event_details" required></textarea>
+
+  <div class="form-row">
+    <label for="">Link to moodboard or reference (if any)</label>
+    <label for="">How did you hear about us*</label>
+  </div>
+  <div class="form-row">
+    <input type="text" name="reference_link">
+    <input type="text" name="referral_source" required>
+  </div><br>
+
+  <div class="button">
+    <a href="thankyou.html"><button name="submit" style="cursor: pointer;"  type="submit" id="contact-submit" data-submit="...Sending"><b>Submit</b></button></a>
+  </div>
+</form>
+
          </div>
    </div><br><br>
 
-   <div class="text">
+   <div class="text2">
     <div class="contact" style="color: #564332; font-size: xx-large;">
     <p>C O N T A C T </p>
     <p>U S</p>
 </div> 
 <div class="no">
-  <p><i class="fa-solid fa-phone"></i> +91 99671 07339</p>
-  <p><i class="fa-solid fa-envelope"></i> photophilephotosandfilms@gmail.com</p>
+  <p><a href="tel:+91 99671 07339"><i class="fa-solid fa-phone"></i> +91 99671 07339</a></p>
+  <p><a href="mailto:photophilephotosandfilms@gmail.com"><i class="fa-solid fa-envelope"></i>photophilephotosandfilms@gmail.com</a></p>
 </div>
    </div><br><br><br>
 
    <!-- map -->
     <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5124604001817!2d72.84974037466644!3d19.129032650306588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b74da7584b0d%3A0xec35462a99ae449d!2sPhotophile%20Photos%20%26%20Films!5e0!3m2!1sen!2sin!4v1740661732180!5m2!1sen!2sin" width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      <br><p>Andheri, Mumbai, India </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5124604001817!2d72.84974037466644!3d19.129032650306588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b74da7584b0d%3A0xec35462a99ae449d!2sPhotophile%20Photos%20%26%20Films!5e0!3m2!1sen!2sin!4v1740661732180!5m2!1sen!2sin" width="95%" height="550px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      <br><p>Andheri, Mumbai, India </p>
     </div><br><br>
 
     <!-- question -->
@@ -174,12 +184,12 @@
    <!-- footer -->
    <footer>
     <div class="footer_icon">
-    <a href="https://www.facebook.com/photophile2.O"><img class="icon" src="logo/FB Logo.png"alt=""></a>
-    <a href="https://www.youtube.com/@photophile-byankitmer441"><img class="icon" src="logo/YT Logo.png" alt=""></a>
-    <a href="https://www.instagram.com/photophile2.0/"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
+    <a href="https://www.facebook.com/photophile2.O" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/FB Logo.png"alt=""></a>
+    <a href="https://www.youtube.com/@photophile-byankitmer441" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/YT Logo.png" alt=""></a>
+    <a href="https://www.instagram.com/photophile2.0/" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
     </div><br><br>
     <p>ALL RIGHT RESERVED 2024 @ PHOTOPHILE PHOTOS & FILMS <br> <br>
-    Email us on : Photophilephotosandfilms@gmail.com <br>
+    Email us on : Photophilephotosandfilms@gmail.com<br>
     Contact Number : +91 9967107339</P>    
   </footer>
 </body>

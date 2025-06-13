@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Films</title>
-    <link rel="icon" href="PP (1).png" sizes="32x32">
-
-    <link rel="stylesheet" href="films.css">
+    <title>Photophile / Films</title>
+    <link rel="icon" href="logo/PP (1).png" sizes="32x32">
+    <link rel="stylesheet" href="css-style/films.css">
 </head>
 <body>
-    <!-- navigation bar -->
-    <div class="hero">
+  <!-- navigation bar -->
+     <div class="hero">
+                <video autoplay playsinline muted loop src="for_website.mp4"></video>
+
         <div class="container1">
-          <a href="Home.html"><img src="logo/Photophile Logo Brown.png" alt=""></a>
+            <a href="index.html"><img src="logo/Photophile Logo.png" alt=""></a>
         </div>
+              <div class="menu-toggle">&#9776;</div>
             <nav>
-                <ul class="link">
-                    <li class="links"><a href="Home.html">Home</a></li>
+                <ul class="nav-links" id="navLinks"> 
+                    <li class="links"><a href="index.html">Home</a></li>
                     <li class="links"><a href="stories.html">Stories</a></li>
                     <li class="links"><a href="films.html">Films</a></li>
                     <li class="links"><a href="aboutus.html">About</a></li>
                     <li class="links"><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
-         </div><br><br><br><br>
+         </div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
 
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  });
+</script>
          <!-- contant -->
          <div class="container">    
             <p>films are crafted to tell your love story with beauty and heartfelt emotion. From the laughter and tears to the quiet, tender moments, we weave together a narrative that feels as magical as your day. Each film is a unique blend of candid memories, joyful celebrations, and meaningful details, creating a timeless keepsake of your journey.</p>        
@@ -35,123 +46,210 @@
             
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/01 - APYT.png" alt="Cover Image">
+                  <img src="/flims/01 - AP.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/BDONICrcWG0?si=tuiebaWOd5HW60mL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
               <div class="text">
                 <h1>AKSHAY & POOJA</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their
+                  connection was more than friendship—it was love. From that moment, they became soulmates, building a life
+                  filled with trust and shared dreams, rooted in their beautiful friendship.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div>
          <br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/02 - DJYT.png" alt="Cover Image">
+                  <img src="flims/02 - DJ.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgLCnY6alIk?si=oglTdJGGWWyzl2ED" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>  
               <div class="text">
                 <h1>DIVYESH & JINAL</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>Overlooking a stunning view, we captured a love story filled with magic. As they shared their young romance,
+                  we saw their chemistry come alive through our lens. Every smile, every glance, frozen in time—moments that
+                  will last a lifetime, forever etched in our hearts. The connection between them is undeniable, and each frame
+                  tells a story of love, laughter, and timeless memories.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div><br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/03 - CTYT.png" alt="Cover Image">
+                  <img src="flims/03 - CT.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/R1-W5EUrEgE?si=6Mj7g2REDxBCHnld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
             <div class="text">
                 <h1>CHIRAG & TANUSHREE</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>They’ve been together for more than 8 amazing years. She’s all about kindness and calm, he’s smart and
+                  sharp—complete opposites. But somehow, they just fit. Now, they’re starting a new chapter as husband and
+                  wife. Here’s to a lifetime of love, laughter, and being perfectly different together.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div><br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/04 - VSYT.png" alt="Cover Image">
+                  <img src="flims/04 - VS.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/lykmRoF0clA?si=MTrkKOCx72jq3WnO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
               <div class="text">
                 <h1>VAIBHAVA & SHIPRA</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>We found magic between honks and heartbeats, as Mumbai’s chaos wrapped us in its charm. Every street
+                  corner caught our secret smiles, and each chai tapri became a silent witness to our love. Between sips of coffee,
+                  stolen cuddles, and bursts of laughter, our story brewed strong—just like our favorite cup.
+                  </p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div><br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/05 - BTYT.png" alt="Cover Image">
+                  <img src="flims/05 - BT.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/caOwcKgGWbM?si=HZbCeD3T5KcFoVn7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
               <div class="text">
                 <h1>BHAVESH & TEJAL</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>After seven beautiful years of love, laughter, and countless cherished moments since their college days,
+                  Bhavesh & Tejal are finally tying the knot and beginning their forever journey as soulmates. From dreamy
+                  adventures, their love has only grown stronger, leading them to this intimate and special day. Surrounded by
+                  their closest family and friends, they are ready to say ‘I do’ and step into a new chapter of love and
+                  togetherness, proving that true love only gets better with time.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div><br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/06 - RMYT.png" alt="Cover Image">
+                  <img src="flims/06 - RM.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/_t0mP0BX7Sw?si=15eXvMQRNIJYZB6x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
               <div class="text">
                 <h1>RIDDHESH & MANSI</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>From childhood friends to soul mates, our journey has been filled with over a decade of love, laughter, and
+                  growing together. Through every season of life, we’ve stood by each other, turning little moments into lasting
+                  memories. Now, with hearts full of gratitude and excitement, we’re stepping into this beautiful forever — hand
+                  in hand, ready for a lifetime of dreams come true.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div><br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/07 - NPYT.png" alt="Cover Image">
+                  <img src="flims/07 - NP.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/QUf8UFYkSt4?si=vv0iIv9i2Xvfv0EE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
               <div class="text">
                 <h1>NILESH & PALLAVI</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>Two strangers, one destined path. With you, I found not just love, but the truest version of myself my home.
+                  Now, as forever begins, I see a life woven with courage, laughter, and quiet, unspoken joy.
+                  As forever unfolds before us, I see a life shaped by the courage to love, the laughter we share, and the quiet
+                  moments that speak louder than words.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
          </div><br><br>
          <div class="container2">
             <div class="video-wrapper">
                 <div class="overlay" id="imageOverlay">
-                  <img src="flims/08 - SSYT.png" alt="Cover Image">
+                  <img src="flims/08 - SS.jpg" alt="Cover Image">
                   <div class="play-btn" id="playBtn">&#9658;</div>
                 </div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/wP3h3PHlO_4?si=E4qBG8Pa437ZVJYF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div> 
               <div class="text">
                 <h1>SUYASH & SALOMI</h1>
-                <p>In the enchanting landscapes of Thailand, Sakshi and Agam's love story unfolded before our lens—an ode to passion, resilience, and the beauty of serendipity. From the very beginning, their journey has been one of intensity and profound connection, a story that defies convention and celebrates the unique bond they share. With Mohit bringing his boundless energy and creative spark to the shoot, every frame was infused with joy, vibrance, and a touch of magic, perfectly capturing the essence of their relationship.</p>
-                <p><b><i>Know More...</i></b></p>
+                <p>In the rhythm of the waves and the softness of the sand, we've discovered a love that feels as timeless as the
+                  ocean itself. Each sunset together is a promise, each beach day another step toward our 'happily ever after.'
+                  With every tide, we grow closer, and our hearts are forever intertwined, just like the endless horizon. In every
+                  moment shared by the sea, we find new reasons to fall deeper in love. This journey, like the ocean, is endless,
+                  and we are ready to sail into forever together.</p>
+                <!-- <p><b><i>Know More...</i></b></p> -->
             </div>
-         </div><br><br>
+         </div><br>
+
+<div style="text-align: center; margin: 40px 0;">
+  <button id="loadMoreBtn" >
+    Explore more...
+  </button>
+</div>
+
+<div id="moreVideos" style="display: none;">  
+  <div class="container2">
+      <div class="video-wrapper">
+          <div class="overlay" id="imageOverlay">
+            <img src="flims/NN.jpg" alt="Cover Image">
+            <div class="play-btn" id="playBtn">&#9658;</div>
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/caOwcKgGWbM?si=HZbCeD3T5KcFoVn7" frameborder="0" allowfullscreen></iframe>
+      </div> 
+      <div class="text">
+          <h1>NAYAN & NIKITA</h1>
+          <p>Nayan & Nikita love story began in 2010 with a flustered entrance and a simple act of kindness in a chaotic
+            classroom. What seemed like an ordinary moment quickly blossomed into something extraordinary. From
+            helping with timetables to building a life together, their journey is proof that fate has a way of bringing the
+            right people into our lives at the perfect time.</p>
+        </div>
+  </div><br><br>
+  
+  <div class="container2">
+    <div class="video-wrapper">
+        <div class="overlay" id="imageOverlay">
+          <img src="flims/10 - RM.jpg" alt="Cover Image">
+          <div class="play-btn" id="playBtn">&#9658;</div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/caOwcKgGWbM?si=HZbCeD3T5KcFoVn7" frameborder="0" allowfullscreen></iframe>
+    </div> 
+    <div class="text">
+        <h1>RUSHABH & MAHEK</h1>
+        <p>It all began as friend, where laughter, questionable dance moves, and flowing conversations sparked a
+          friendship between Rushabh and Mahek. What started as casual 'Hey, are you going too?' soon blossomed into
+          a connection filled with inside jokes, spontaneous adventures, and a shared love for each other’s quirks.
+          Rushabh, a simple and decent guy, and Mahek, a opposite of rushabh in everything, found that love wasn’t
+          something they were seeking—but it was always there, waiting for them to notice.</p>
+      </div><br><br>
+</div>
+
+</div>
+<br><br>
+<script>
+  document.getElementById("loadMoreBtn").addEventListener("click", function () {
+      document.getElementById("moreVideos").style.display = "block";
+      this.style.display = "none"; 
+  });
+</script>
+<a href="#top" class="scroll-arrow">↑</a>
+<script>
+  window.addEventListener('scroll', function() {
+const scrollArrow = document.querySelector('.scroll-arrow');
+if (window.scrollY > 200) { // Show after 200px scroll
+scrollArrow.classList.add('show');
+} else {
+scrollArrow.classList.remove('show');
+}
+});
+</script>
+
 
           <!-- footer -->
           <footer>
             <div class="footer_icon">
-            <a href="https://www.facebook.com/photophile2.O"><img class="icon" src="logo/FB Logo.png"alt=""></a>
-            <a href="https://www.youtube.com/@photophile-byankitmer441"><img class="icon" src="logo/YT Logo.png" alt=""></a>
-            <a href="https://www.instagram.com/photophile2.0/"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
+            <a href="https://www.facebook.com/photophile2.O" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/FB Logo.png"alt=""></a>
+            <a href="https://www.youtube.com/@photophile-byankitmer441" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/YT Logo.png" alt=""></a>
+            <a href="https://www.instagram.com/photophile2.0/" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
             </div><br><br>
             <p>ALL RIGHT RESERVED 2024 @ PHOTOPHILE PHOTOS & FILMS <br> <br>
             Email us on : Photophilephotosandfilms@gmail.com <br>
@@ -159,24 +257,58 @@
           </footer>  
 
           
-          <script>
-            const playButtons = document.querySelectorAll(".play-btn");
-            const overlays = document.querySelectorAll(".overlay");
-            const iframes = document.querySelectorAll(".video-wrapper iframe");
-          
-            playButtons.forEach((btn, index) => {
-              btn.addEventListener("click", () => {
-                overlays[index].style.opacity = 0;
-                setTimeout(() => overlays[index].style.display = "none", 1000);
-                
-                // Trigger autoplay by reassigning the src with autoplay param
-                const currentSrc = iframes[index].src;
-                if (!currentSrc.includes("autoplay=1")) {
-                  iframes[index].src = currentSrc + "&autoplay=1";
-                }
-              });
-            });
-          </script>
+<script>
+  const playButtons = document.querySelectorAll(".play-btn");
+  const overlays = document.querySelectorAll(".overlay");
+  const iframes = document.querySelectorAll(".video-wrapper iframe");
+
+  function stopAllVideos(exceptIndex = -1) {
+    iframes.forEach((iframe, i) => {
+      if (i !== exceptIndex) {
+        // Reset src to stop the video
+        const src = iframe.src.replace("&autoplay=1", "").replace("?autoplay=1", "");
+        iframe.src = src;
+        overlays[i].style.display = "block";
+        overlays[i].style.opacity = 1;
+      }
+    });
+  }
+
+  playButtons.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+      stopAllVideos(index);
+
+      overlays[index].style.opacity = 0;
+      setTimeout(() => overlays[index].style.display = "none", 1000);
+
+      const currentSrc = iframes[index].src;
+      const cleanSrc = currentSrc.replace("&autoplay=1", "").replace("?autoplay=1", "");
+      iframes[index].src = cleanSrc + (cleanSrc.includes("?") ? "&autoplay=1" : "?autoplay=1");
+    });
+  });
+
+  // Intersection Observer to pause videos off screen
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const iframe = entry.target.querySelector("iframe");
+      const overlay = entry.target.querySelector(".overlay");
+      if (!entry.isIntersecting) {
+        // Pause video by resetting the src
+        const src = iframe.src.replace("&autoplay=1", "").replace("?autoplay=1", "");
+        iframe.src = src;
+        overlay.style.display = "block";
+        overlay.style.opacity = 1;
+      }
+    });
+  }, {
+    threshold: 0.5 // Trigger when less than 50% is visible
+  });
+
+  document.querySelectorAll(".video-wrapper").forEach(wrapper => {
+    observer.observe(wrapper);
+  });
+</script>
+
           
 
 </body>

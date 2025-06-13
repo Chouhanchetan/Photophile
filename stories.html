@@ -3,124 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stories</title>
-    <link rel="icon" href="PP (1).png" sizes="32x32">
+    <title>Photophile / Stories</title>
+    <link rel="icon" href="logo/PP (1).png" sizes="32x32">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="stories.css">
+    <link rel="stylesheet" href="css-style/stories.css">
+    <link rel="stylesheet" href="text/all.min.css">
 </head>
 <body>
-     <!-- navigation bar -->
-     <div class="hero">
-        <div class="container1">
-          <a href="Home.html"><img src="logo/Photophile Logo Brown.png" alt=""></a>
-        </div>
-            <nav>
-                <ul class="link">
-                    <li class="links"><a href="Home.html">Home</a></li>
-                    <li class="links"><a href="stories.html">Stories</a></li>
-                    <li class="links"><a href="films.html">Films</a></li>
-                    <li class="links"><a href="aboutus.html">About</a></li>
-                    <li class="links"><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-     </div><br><br>
+  <!-- navigation bar -->
+  <div class="hero">
+    <div class="container">
+      <a href="index.html"><img src="logo/Photophile Logo Brown.png" alt=""></a>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <ul class="link">
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="stories.html">Stories</a></li>
+                <li class="links"><a href="films.html">Films</a></li>
+                <li class="links"><a href="aboutus.html">About</a></li>
+                <li class="links"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>    
+  </div>
+        <br><br>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  });
+</script>
      <!-- content -->
-     <div class="container">
+     <div class="container3">
         <p>Every story is unique, and we believe in capturing your emotions, Through storytelling in our work, we love to document the heartfelt moments, candid moments, in your Every function like Engagement, wedding & pre-wedding, Maternity, Toddler & Family Session. Our approach is to weave together a visual narrative that reflects your journey, preserving memories you'll cherish for a lifetime.</p>
     </div><br><br><br>
 
     <!-- main section -->
-
-    <div class="hello1">
-        <div class="list"  data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" ><img src="stories/001.jpg" alt="">
-          <div class="post">
-            <p style="align-items: center; display: flex; justify-content: center; padding-left: 55px;">January 01, 2004</p>
-            <h1>VISHWAM & VAIBHVI</h1>
-            <!-- <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br> -->
-           <!-- <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a> -->
-          </div>
-        </div>  
-        <div class="list" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true"  ><img src="stories/002.jpg" alt="">
-          <div class="post">
-            <p style="align-items: center; display: flex; justify-content: center; padding-left: 55px;">January 01, 2004</p>            <h1>Chintan & Hasti</h1>
-            <!-- <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br> -->
-            <!-- <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a> -->
+     <div class="media">
+      <div class="grid">
+    <div class="item">
+      <a href="CTW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+          <img src="stories/003.jpg" alt="">
         </div>
-        </div>  
-        <div class="list" data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true"  ><img src="stories/003.jpg" alt="">
-          <div class="post">
-            <p style="align-items: center; display: flex; justify-content: center; padding-left: 55px;">January 01, 2004</p>
-            <h1>Chirag & Tanushree</h1>
-            <!-- <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br> -->
-            <!-- <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a> -->
-        </div>
-        </div>
-      </div><br><br><br><br>
-        <div class="hello1">
-          <div class="list" data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true"  ><img src="stories/004.jpg" alt="">
-            <div class="post">
-              <h1>Akshay & Pooja</h1>
-              <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br>
-              <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a>
-            </div>
-          </div>  
-          <div class="list" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true"  ><img src="stories/005.jpg" alt="">
-            <div class="post">
-              <h1>Bhavesh & Tejal</h1>
-              <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br>
-              <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a>
-            </div>
-          </div>  
-          <div class="list" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true"  ><img src="stories/006.jpg" alt="">
-            <div class="post">
-              <h1>Shubhankar & Simran</h1>
-              <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br>
-              <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a>
-            </div>
-          </div>
-      </div><br><br>
-      <div class="hello1">
-        <div class="list" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true"  ><img src="stories/007.jpg" alt="">
-          <div class="post">
-            <h1>Divyesh & Jinal</h1>
-            <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br>
-            <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a>
-        </div>
-        </div>  
-        <div class="list" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true"  ><img src="stories/008.jpg" alt="">
-          <div class="post">
-            <h1>Riddhesh & Mansi</h1>
-            <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br>
-            <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a>
-        </div>
-        </div>  
-        <div class="list" data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true"  ><img src="stories/009.jpg" alt="">
-          <div class="post">
-            <h1>Nayan & Nikita</h1>
-            <span>Two friends shared laughter and dreams, their bond growing deeper over time. One day, they realized their connection was more than friendship—it was love. From that moment, they became soulmates, building a life filled with trust and shared dreams, rooted in their beautiful friendship.</span><br>
-            <a href=""><b>READ MORE <i class="fa-solid fa-arrow-right"></i></b></a>
-        </div>
-        </div>
+      </a>
+      <div class="post">
+        <p>December 04, 2023</p>
+        <a href="CTW.html"><h1>CHIRAG & TANUSHREE</h1></a>
       </div>
+    </div>
+
+    <div class="item">
+      <a href="CHPW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+          <img src="stories/02.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>January 08, 2023</p>
+        <a href="CHPW.html"><h1>CHINTAN & HASTI</h1></a>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="BTW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true">
+          <img src="stories/05.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>May 10, 2024</p>
+        <a href="BTW.html"><h1>BHAVESH & TEJAL</h1></a>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="APW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true">
+          <img src="stories/04..jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>January 22, 2024</p>
+        <a href="APW.html"><h1>AKSHAY & POOJA</h1></a>
+      </div>
+    </div>
+
+        <div class="item">
+      <a href="NNW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+          <img src="stories/09.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>December 02, 2022</p>
+        <a href="NNW.html"><h1>NAYAN & NIKITA</h1></a>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <a href="MRPW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+          <img src="stories/06.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>January 11, 2025</p>
+        <a href="MRPW.html"><h1>RAHUL & MUSKAN</h1></a>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="DJPW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+          <img src="stories/07.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>October 22, 2023</p>
+        <a href="DJPW.html"><h1>DIVYESH & JINAL</h1></a>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="RMPW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+          <img src="stories/08.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>December 17, 2023</p>
+        <a href="RMPW.html"><h1>RIDDHESH & MANSI</h1></a>
+      </div>
+    </div>
+
+    <div class="item">
+      <a href="PNW.html">
+        <div class="list" data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true">
+          <img src="stories/01.jpg" alt="">
+        </div>
+      </a>
+      <div class="post">
+        <p>December 17, 2023</p>
+        <a href="PNW.html"><h1>PRAKTAN & NIKITA</h1></a>
+      </div>
+    </div>
+  </div>
+</div>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
         AOS.init();
       </script><br><br><br><br>
+        <a href="#top" class="scroll-arrow">↑</a>
+  <script>
+    window.addEventListener('scroll', function() {
+const scrollArrow = document.querySelector('.scroll-arrow');
+if (window.scrollY > 200) {
+scrollArrow.classList.add('show');
+} else {
+scrollArrow.classList.remove('show');
+}
+});
+</script>
 
       <!-- EQ -->
        <div class="container2">
        <div class="EQ">
         <i>"Let’s create unforgettable memories together—experience something truly unique with us!"</i><br><br>
-        <a href="contact.html"><button>Let’s connect</button></a>
+        <a href="contact.html"><button style="cursor: pointer;">Let’s connect</button></a>
        </div>
        </div><br><br><br>
               <!-- footer -->
               <footer>
                 <div class="footer_icon">
-                <a href="https://www.facebook.com/photophile2.O"><img class="icon" src="logo/FB Logo.png"alt=""></a>
-                <a href="https://www.youtube.com/@photophile-byankitmer441"><img class="icon" src="logo/YT Logo.png" alt=""></a>
-                <a href="https://www.instagram.com/photophile2.0/"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
+                <a href="https://www.facebook.com/photophile2.O" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/FB Logo.png"alt=""></a>
+                <a href="https://www.youtube.com/@photophile-byankitmer441" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/YT Logo.png" alt=""></a>
+                <a href="https://www.instagram.com/photophile2.0/" target="_blank" rel="noopener noreferrer"><img class="icon" src="logo/Instagram Logo.png" alt=""></a>
                 </div><br><br>
                 <p>ALL RIGHT RESERVED 2024 @ PHOTOPHILE PHOTOS & FILMS <br> <br>
                 Email us on : Photophilephotosandfilms@gmail.com <br>
